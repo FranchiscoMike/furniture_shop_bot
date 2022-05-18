@@ -1,0 +1,26 @@
+server:
+  port: 80
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/furniture_bot
+    username: 'postgres'
+    password: '0706'
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: create
+    defer-datasource-initialization: true
+  sql:
+    init:
+      mode: never
+  servlet:
+    multipart:
+      max-request-size: 20MB
+      max-file-size: 20MB
+
+telegram_bot_username: Mike_Books_Spring_bot
+telegram_bot_botToken: 5165125889:AAFaJkC8liICvNl9evYRU4mDeshtUKjIY8Y
+
+
+#https://matn.uz/
