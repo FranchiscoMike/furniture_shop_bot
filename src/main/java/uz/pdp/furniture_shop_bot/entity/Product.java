@@ -20,6 +20,8 @@ public class Product {
 
     private String name;
 
+    private Double price;
+
     @OneToOne
     private Attachment photo;
 

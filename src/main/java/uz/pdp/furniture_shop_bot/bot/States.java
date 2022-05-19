@@ -6,7 +6,7 @@ public interface States {
 
     String LOGIN = "share your phone number";
 
-    String SHOW_MENU = "select from menu";
+    String SELECT_FROM_MENU = "select from menu";
 
     String SELECT_PARENT_CATEGORY = "select parent category";
 

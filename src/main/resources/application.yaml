@@ -1,5 +1,7 @@
 server:
   port: 80
+  error:
+    include-message: always
 spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/furniture_bot
@@ -9,7 +11,7 @@ spring:
   jpa:
     show-sql: true
     hibernate:
-      ddl-auto: create
+      ddl-auto: update
     defer-datasource-initialization: true
   sql:
     init:
